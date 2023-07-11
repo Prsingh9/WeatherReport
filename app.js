@@ -33,7 +33,7 @@ app.post("/",(req,res)=>{
           
             res.write("<h1>The tempreature in "+query+" is "+temp+" degree Celcius.</h1>");
             res.write("The weather is currently "+descc);
-            res.write("<img src="+imageURL+">");z
+            res.write("<img src="+imageURL+">");
           
          res.send()
         })
